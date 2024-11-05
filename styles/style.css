@@ -1,0 +1,265 @@
+:root {
+    --color-background-light: rgb(249, 232, 215);
+    --color-text-light: black;
+    --color-blocks-light: red;
+    --header-fonts: "PT Sans Narrow", sans-serif;
+    --p-fonts: "PT Sans Narrow", sans-serif;
+    --hover-highlight-color: rgb(246, 164, 164);
+    --text-color: black;
+    --color-white: white;
+    --font-size-base: 16px;
+    --padding-base: 20px;
+    --border-radius: 8px;
+}
+
+/* Algemene stijlen */
+
+body {
+    background-color: var(--color-background-light);
+    margin: 0;
+    padding: 0;
+    font-size: var(--font-size-base);
+}
+
+/* typografie */
+
+h2 {
+	text-align: center;
+}
+
+
+p {
+	text-align: center;
+}
+header {
+    display: flex;
+    flex-wrap: wrap; /* Zorgt ervoor dat items naar een nieuwe regel gaan als ze niet passen */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+header img {
+    max-width: 100px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-background-light);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.toonMenu {
+    transform: translateX(0%);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+nav a {
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--text-color);
+}
+
+nav a:hover {
+    background-color: var(--hover-highlight-color);
+}
+/* Zorg ervoor dat de inhoud in het midden staat */
+nav div {
+    display: flex;
+    flex-direction: column; /* Stapel de elementen verticaal */
+    align-items: center; /* Centreer horizontaal */
+    justify-content: center; /* Centreer verticaal */
+    min-height: 100vh; /* Maak de container even hoog als het scherm */
+    text-align: center;
+    margin: 0;
+}
+
+/* Afbeelding styling met nth-of-type */
+nav div img:nth-of-type(1) {
+    width: 100%;
+    max-width: 600px; /* Maximum breedte voor grotere afbeelding */
+    height: auto;
+    margin-bottom: 20px; /* Ruimte tussen afbeelding en tekst */
+}
+
+/* Tekst styling met nth-of-type */
+nav div p:nth-of-type(1) {
+    font-size: 1.2em;
+    margin-bottom: 20px; /* Ruimte tussen tekst en knop */
+}
+
+/* Knop styling met nth-of-type */
+nav div button:nth-of-type(1) {
+    font-size: 1.5em;
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover-effect voor de knop */
+nav div button:nth-of-type(1):hover {
+    background-color: darkred;
+}
+
+
+/* video */
+video {
+	width: 300px;
+	height: 200px;
+
+	display: block;
+	margin: 2em auto 0 auto;
+	/* z-index: -1; */
+	pointer-events: none;
+}
+
+@media (min-width: 35em){
+	video{
+		width: 1000px;
+		height:500px ;
+	}
+}
+
+h1 {
+	
+	text-align: center;
+	
+}
+
+
+/* foto's */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.column {
+    flex: 1 1 calc(33.33% - 10px);
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+}
+
+button {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: var(--color-blocks-light);
+    color: var(--color-white);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+    background-color: var(--color-blocks-light);
+    color: var(--color-white);
+}
+
+/* Mediagebruik voor responsiviteit */
+
+/* Mobiele apparaten */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        width: 100%; /* Laat de navigatie minder ruimte innemen op kleine schermen */
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        flex: 1 1 100%;
+    }
+
+    button {
+        width: 100%; /* Laat knoppen de volledige breedte innemen op kleine schermen */
+
+    }
+	nav ul li{
+
+	margin-bottom: 20px;
+
+	}
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    header {
+        flex-direction: row;
+    }
+
+    .row {
+        flex-direction: row;
+    }
+
+    .column {
+        flex: 1 1 calc(50% - 10px);
+
+    }
+
+	nav ul li{
+
+		margin-bottom: 20px;
+	
+		}
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .row {
+        flex-direction: row;
+    }
+
+    .column {
+        flex: 1 1 calc(33.33% - 10px);
+    }
+}
