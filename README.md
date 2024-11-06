@@ -33,17 +33,17 @@ layout
 
 ### Je opdracht:
 
-mij opdracht is om een nieuwe / betere versie te maken van de website: https://rhyebeauty.com
+mij opdracht is om een nieuwe / betere versie te maken van de website: le petit george
 
 #### Screenshot(s) van de eerste pagina (small screen):
 
 hier de naam van de pagina  
- <img src="(readme-images/eerstepagina.jpg)" width="375px" alt="de homepagina die ik ga maken ">
+ <img src="" width="375px" alt="de homepagina die ik ga maken ">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
 hier de naam van de pagina  
- <img src="(readme-images/about.jpg)" width="375px" alt="De about pagina word de tweede pagina die ga ik verbeteren.">
+ <img src="" width="375px" alt="De careers pagina ga ik verbeteren.">
 
 </details>
 
@@ -56,13 +56,7 @@ hier de naam van de pagina
 
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-Het onderzoek naar de toegankelijkheid leverde enkele duidelijke punten op. Allereerst merkten we dat bij sommige afbeeldingen geen beschrijving wordt gegeven. Dit maakt het moeilijk voor mensen met een visuele beperking om te begrijpen wat er op een foto staat. Het zou dus nuttig zijn om bij elke afbeelding duidelijk te vermelden wat erop te zien is, zoals bijvoorbeeld hoe een persoon eruitziet of wat er in de omgeving gebeurt.
-
-Daarnaast is het onduidelijk waar bepaalde knoppen zich op de website bevinden. Voor iemand die gebruikmaakt van een schermlezer is het lastig om snel en efficiënt door de site te navigeren. Duidelijke labels voor knoppen en een betere indeling kunnen hierbij helpen.
-
-Verder lijkt er een overdaad aan afbeeldingen op de pagina's te zijn, wat voor sommige gebruikers verwarrend of afleidend kan zijn. Misschien is het een idee om dit te beperken en alleen de essentiële beelden te tonen.
-
-Tot slot wordt veel van de informatie alleen in het Engels aangeboden. Voor iemand die Nederlands als moedertaal heeft, kan dit verwarrend zijn, zeker als er eerst Nederlands en daarna Engels wordt voorgelezen. Het zou prettig zijn om de taalconsistentie te verbeteren, zodat de hele ervaring in één taal verloopt, tenzij anders nodig.
+De website van Le Petit George ziet er stijlvol en minimalistisch uit, met mooie foto's die de sfeer goed weergeven. Alles staat op één pagina zonder duidelijke kopjes of hoofdstukken, wat het lastig maakt om snel informatie te vinden. Een menu met secties zoals "Over Ons", "Menu", en "Reserveren" zou de gebruiksvriendelijkheid verbeteren. Daarnaast zouden interactieve elementen zoals een reserveringsknop of een dynamische fotogalerij de website aantrekkelijker maken. Door meer structuur en duidelijke call-to-action knoppen toe te voegen, kan de website niet alleen visueel mooi blijven, maar ook functioneler en makkelijker te navigeren worden voor bezoekers.
 
 </details>
 
@@ -98,32 +92,10 @@ Op de eerste pagina had ik veel `<div>`-elementen gebruikt, wat niet echt de bes
 
 ### Agenda voor meeting
 
-samen met je groepje opstellen
-
-Artemis& Brita: het starten vinden ze moeilijk.
-
-Dit is wat Elles in gedachten heeft voor haar site:
-
-- CSS op de tweede pagina: Elles vroeg zich af hoe ze de CSS specifiek voor de tweede pagina kan instellen, omdat de stijlen van de eerste pagina automatisch worden toegepast op de tweede. Het zou fijn zijn als dit apart ingesteld kan worden.
-
-- Cheeseburger/afbeeldingen layout: Wat kan Elles het beste gebruiken voor de layout van de cheeseburgerknop en afbeeldingen? Ze twijfelt tussen flexbox of grid en is benieuwd wat hier het beste werkt.
-
-- uitklapmenu bij groter scherm: Hoe kan Elles een uitklapmenu maken dat alleen zichtbaar wordt wanneer de pagina op een groter scherm bekeken wordt? Ze wil dat het menu verschijnt bij grotere schermen, maar verborgen blijft op kleinere apparaten.
-
-Marie Janette (ikzelf) had alleen een vraag over darkmodus en een soort animatie. waardoor je de after en before zag.
-
+ wegens Herkansing niet kunnen invullen
 ### Verslag van meeting
 
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- hier na afloop snel de uitkomsten van de meeting vastleggen
-  Tijdens de meeting van de Fed werd het voor iedereen duidelijk wat de volgende stappen waren en wat er van hen verwacht werd. Het belangrijkste punt van de bespreking was dat iedereen nu weet wat ze moeten doen om verder te gaan met het project. Er werd ook waardevol advies gegeven over de volgorde waarin de werkzaamheden het beste uitgevoerd kunnen worden.
-
-Een van de tips die werd gedeeld, was dat het verstandig is om eerst de homepagina volledig af te ronden voordat er aan nieuwe pagina’s wordt gewerkt. Dit zorgt voor een sterke basis en een duidelijk ontwerp dat consistent kan worden doorgevoerd naar de rest van de website. Het voorkomt dat er later aanpassingen moeten worden gedaan die mogelijk dubbel werk opleveren. De homepagina wordt vaak gezien als het visitekaartje van een site, dus het is belangrijk dat deze goed in elkaar zit voordat de andere pagina's worden ontwikkeld.
-
-Met dit advies in gedachten heeft het team nu een duidelijke richting om mee verder te gaan. Door gefocust te blijven op één deel van het project voordat er aan nieuwe taken wordt begonnen, kan er efficiënter en consistenter worden gewerkt.
-
-</details>
+wegens Herkansing niet kunnen invullen
 
 ## Voortgang 2 (week 3)
 
@@ -138,23 +110,11 @@ alt="engels en nederlands"
 
 ### Agenda voor meeting
 
--elles: lay out, knoppen
--Artemis: ging opnieuw beginnen
--Marie Janette: lay out, foto schuiven.
+wegens Herkansing niet kunnen invullen
 
 ### Verslag van meeting
 
-Als groepje hadden we tijdens de meeting niet heel veel vragen. We waren over het algemeen goed voorbereid en wisten grotendeels wat er moest gebeuren. Toch kwamen er nog een paar punten naar voren die we wilden bespreken.
-
-Ikzelf had nog een vraag over hoe je afbeeldingen kunt verschuiven binnen de lay-out. Het ging specifiek om het flexibel plaatsen van plaatjes, zodat ze makkelijker aangepast kunnen worden aan verschillende schermformaten. Dit leek me belangrijk om de website visueel aantrekkelijk te houden, ongeacht de schermgrootte.
-
-Elles had vooral vragen over de lay-out van de pagina. Ze merkte dat bepaalde knoppen op andere plekken stonden dan ze oorspronkelijk had gepland, wat voor verwarring zorgde. Ze wilde graag weten hoe dit aangepast kon worden, zodat de knoppen op de juiste plek en logischer voor de gebruiker zouden verschijnen.
-
-Artemis, daarentegen, had een iets andere insteek. Zij stelde voor om opnieuw te beginnen met het project. Ze was van mening dat de basis niet helemaal goed was gelegd en dat het efficiënter zou zijn om vanaf nul te beginnen, zodat alles vanaf het begin duidelijker en beter gestructureerd zou zijn.
-
-Met deze vragen en ideeën gingen we verder met het verfijnen van ons project.
-
-- ...
+wegens Herkansing niet kunnen invullen
 
 </details>
 
@@ -189,19 +149,11 @@ ik heb hier een test gedaan met mijn kleuren contrast of het goed was of niet. u
 
 ### Agenda voor meeting
 
-samen met je groepje opstellen
-elles had een paar vragen over
-
-- hoe toon je de sluitknop in een hambruger menu?
-  -hoe kan ik de focus state goed vormgeven.
-
-Brita had vragen over de positioneren en hoe je een post maakt.
-
-Ikzelf: had vragen over readme, en over mijn hamburger menu
+wegens Herkansing niet kunnen invullen
 
 ### Verslag van meeting
 
-in de meeting hadden wij allemaal nog meer vragen. gelukkig waren er 2 assissenten die ons konden helpen er mee. En zo konden wij weer door met de codes.
+wegens Herkansing niet kunnen invullen
 
 </details>
 
@@ -212,13 +164,13 @@ in de meeting hadden wij allemaal nog meer vragen. gelukkig waren er 2 assissent
 
 ### Je uitkomst - karakteristiek screenshots:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src=".jpg" width="375px" alt="uitomst opdracht 1">
 
 ### Dit ging goed/Heb ik geleerd:
 
 Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="" width="375px" alt="top">
 
 ### Dit was lastig/Is niet gelukt:
 
