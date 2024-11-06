@@ -38,7 +38,8 @@ mij opdracht is om een nieuwe / betere versie te maken van de website: https://w
 #### Screenshot(s) van de eerste pagina (small screen):
 
 hier de naam van de pagina  
- <img src="![Alt text](readme-images/lepetitgoergepagina2.png)" width="375px" alt="de homepagina die ik ga maken ">
+ <img src="readme-images/lepetitgoergepagina2.png
+   ![Alt text](readme-images/lepetitgoergepagina2.png)" width="375px" alt="de homepagina die ik ga maken ">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
